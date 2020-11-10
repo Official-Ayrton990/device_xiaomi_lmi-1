@@ -34,3 +34,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Extra FOD stuff
 TARGET_HAS_FOD := true
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="lmi-user 10 QKQ1.191117.002 V12.0.4.0.QJKMIXM release-keys"
+
+BUILD_FINGERPRINT := Redmi/lmi/lmi:10/QKQ1.191117.002/V12.0.4.0.QJKMIXM:user/release-keys
